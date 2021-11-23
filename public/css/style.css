@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+body{
+  background: #eee;
+  color: #333;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+li{
+  list-style: none;
+}
+
+.post{
+  background: #fff;
+  border-radius: 5px;
+  clear: both;
+}
+
+.post span {
+  font-size: 14px;
+}
+
+.post button {
+  float: right;
+  margin-right: 5px;
+}
+
+.post p{
+  clear: both;
+}
+
+.login-form{
+  background: #fff;
+  border-radius: 5px;
+}
+
+.logout{
+  float: right;
+}
+
+footer{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
